@@ -1,0 +1,95 @@
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 50px;
+    overflow:auto;
+    
+  }
+  input{
+    height:40px;
+    width: 250px;
+    margin: 5px;
+  }
+
+  button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+
+  #userValue:focus{
+    background-color: lightblue;
+  }
+
+  body{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+  }
+
+  #complete{
+    text-decoration: underline;
+  }
+
+  #rect{
+    margin: 0 auto;
+    width:650px;
+    height:100vh;
+    background:rgba(200, 54, 54, 0.4);
+    float:left;
+    display: table;
+    
+  }
+  #secRect{
+    margin: 0 auto;
+    margin-right: 10px;
+    width:650px;
+    height:100vh;
+    background:rgba(200, 54, 54, 0.4);
+    float:Right;
+     display: table;
+  }
+
+  #inner{
+    display: inline-block;
+     padding: 50px;
+     
+  }
+  #secInner{
+    display: inline-block;
+     padding: 50px;
+  }
+  
+  input[type='checkbox']{
+    margin-left: 1px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+  header {
+    overflow: hidden;
+    
+    text-align: center;
+    background-color: rgba(0, 100,0, 0.4);
+    
+    margin-bottom: 10px;
+
+  }
+#head{
+  font-size: 200%;
+}
+
+#reqDiv{
+  color: red;
+}

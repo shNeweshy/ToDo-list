@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todoStyle.css">
+</head>
+<header>
+    <p id="head">To-Do list.....</p>
+</header>
+<body>
+    <div id="rect">
+        <div id="inner">
+        <input list="userNames" name="userNames" id="userValue" value="" placeholder="Enter your name ..." >
+        <datalist id="userNames">
+        </datalist>
+        <button id="Adduser">
+            Add User
+        </button>
+        <div id="reqDiv"></div>
+        <p>If you already have an account just sign-in</p>
+        <button id="signin">Sign-In</button>
+        <br>
+        <br>
+    <input id="toList"type="text" placeholder="Enter your To do" value="">
+    
+    <button id="add">
+        Add
+    </button>
+    <input list="searchLst" id="search" placeholder="search here ..." value="">
+    <datalist id="searchLst">
+    </datalist>
+    <button id="searchBtn">Search</button>
+    <button id="showAll">Show All List</button>
+    <br>
+    <br>
+    <div id="main"></div></div></div>
+    
+   <div id="secRect">
+       <div id="secInner">
+        <p id="complete">Completed Tasks</p>
+    <div id="checked"></div></div>
+
+    
+</div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
